@@ -1,6 +1,6 @@
 # 🔄 push_swap - Stack Sorting Algorithm
 
-Hey there! 👋 Welcome to my push_swap project, where I tackled the fascinating challenge of sorting numbers using two stacks and a limited set of operations. Let me walk you through this algorithmic adventure!
+Hey there! 👋 Welcome to my push_swap project, where I tackled the challenge of sorting numbers using two stacks, a limited set of operations and the most suitable algorithm.
 
 ## 🎯 What's This Project About?
 
