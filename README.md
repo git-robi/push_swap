@@ -54,42 +54,29 @@ I implemented this project using the Turk algorithm, adapting it to work with li
 
 ## 🤔 The Tricky Parts
 
-This project came with some interesting challenges:
+Developing push_swap presented unique challenges in algorithm design and optimization. Each challenge pushed me (no pun intended) to think creatively about efficient solutions while maintaining code reliability.
 
-1. **Algorithm Efficiency**:
-   - Finding the most efficient sorting method
-   - Minimizing the number of operations
-   - Handling different stack sizes efficiently
+### Algorithm Optimization
+The core challenge lay in developing an efficient sorting strategy with minimal operations. My implementation of the Turk algorithm required careful optimization to handle various stack sizes effectively. I focused on minimizing the number of moves while ensuring the solution remained robust across different input sizes. This involved analyzing operation patterns and finding opportunities to combine moves, ultimately leading to a more efficient sorting process.
 
-2. **Edge Cases**:
-   - Dealing with negative numbers
-   - Handling duplicate numbers
-   - Managing invalid inputs
-   - Special cases for small sets of numbers
+### Edge Case Management
+Handling diverse input scenarios proved crucial for reliability. My system robustly manages negative numbers and duplicates, ensuring consistent behavior across all input types. I developed specialized approaches for small datasets, where the standard algorithm might be inefficient. The input validation system carefully screens for invalid entries while maintaining optimal performance, making the program both reliable and efficient.
 
-3. **Memory Management**:
-   - Proper allocation and freeing of nodes
-   - Managing the linked list structure
-   - Preventing memory leaks
+### Memory Architecture
+Implementing a doubly-linked list structure required careful attention to memory management. I designed a comprehensive system for tracking node allocations and deallocations, ensuring proper cleanup during all operations. Special attention was paid to maintaining list integrity during complex sorting operations, preventing memory leaks while preserving performance.
 
-## 🎓 What I Learned
+## 🎓 What I learnt
 
-This project was a fantastic learning experience:
+This project provided deep insights into algorithm design and data structure implementation, significantly expanding my understanding of efficient programming practices.
 
-1. **Algorithm Design**:
-   - Understanding sorting algorithms deeply
-   - Learning about algorithm optimization
-   - Thinking about space and time complexity
+### Algorithm Design Principles
+Working with the Turk algorithm deepened my understanding of sorting strategies and their optimizations. I learned to analyze algorithms not just for correctness, but for operation count and efficiency. This experience taught me to think critically about algorithmic choices and their impact on performance, especially when working with constrained operations.
 
-2. **Data Structures**:
-   - Working with linked lists
-   - Managing complex data structures
-   - Understanding stack operations
+### Data Structure Implementation
+Implementing stacks using doubly-linked lists provided practical experience in complex data structure design. I learned to balance the tradeoffs between different implementation approaches, considering both performance and maintainability. The project demonstrated how the right data structure choice can significantly impact algorithm efficiency.
 
-3. **Problem Solving**:
-   - Breaking down complex problems
-   - Optimizing solutions
-   - Handling edge cases effectively
+### Problem-Solving Methodology
+The project reinforced systematic problem-solving approaches in algorithm development. I learned to decompose complex sorting challenges into manageable components, optimize each part individually, and integrate them into a cohesive solution. This experience emphasized the importance of thorough testing and continuous refinement in developing robust algorithms.
 
 ## 💡 How to Use It
 
